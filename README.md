@@ -24,8 +24,7 @@ Component Driven Development(CDD)를 위해 미리미리 컴포넌트를 만들�
 
 ### 구현해볼 것들
 - [x] button
-- [ ] input
-- [ ] drop down
-- [ ] Intersection Observer를 활용한 무한 스크롤
-- [ ] Lazy loading을 적용한
+- [x] input
+- [x] drop down
+- [ ] Intersection Observer를 활용한 무한 스크롤(Lazy loading까지)
 - [ ] modal
