@@ -3,6 +3,7 @@ import ButtonsPage from './pages/ButtonsPage'
 import './index.css'
 import InputsPage from './pages/InputsPage'
 import DropdownsPage from './pages/DropdownsPage'
+import IntersectionObserverPage from './pages/IntersectionObserverPage'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <ButtonsPage />
       <InputsPage />
       <DropdownsPage />
+      <IntersectionObserverPage />
     </div>
   )
 }

@@ -30,6 +30,36 @@ function DropdownsPage() {
   return (
     <div>
       <Dropdown items={dummyItems.data}/>
+      <Dropdown items={dummyItems.data}/>
+      <div>TEXTEXTEXT</div>
+      <div>TEXTEXTEXT</div>
+      <div>TEXTEXTEXT</div>
+      <div>TEXTEXTEXT</div>
+      <div>TEXTEXTEXT</div>
+      <div>TEXTEXTEXT</div>
+      <div>TEXTEXTEXT</div>
+      <div>TEXTEXTEXT</div>
+      <div>TEXTEXTEXT</div>
+      <div>TEXTEXTEXT</div>
+      <div>TEXTEXTEXT</div>
+      <div>TEXTEXTEXT</div>
+      <div>TEXTEXTEXT</div>
+      <div>TEXTEXTEXT</div>
+      <div>TEXTEXTEXT</div>
+      <div>TEXTEXTEXT</div>
+      <div>TEXTEXTEXT</div>
+      <div>TEXTEXTEXT</div>
+      <div>TEXTEXTEXT</div>
+      <div>TEXTEXTEXT</div>
+      <div>TEXTEXTEXT</div>
+      <div>TEXTEXTEXT</div>
+      <div>TEXTEXTEXT</div>
+      <div>TEXTEXTEXT</div>
+      <div>TEXTEXTEXT</div>
+      <div>TEXTEXTEXT</div>
+      <div>TEXTEXTEXT</div>
+      <div>TEXTEXTEXT</div>
+      <div>TEXTEXTEXT</div>
     </div>
   )
 }

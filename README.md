@@ -28,3 +28,4 @@ Component Driven Development(CDD)를 위해 미리미리 컴포넌트를 만들�
 - [x] drop down
 - [ ] Intersection Observer를 활용한 무한 스크롤(Lazy loading까지)
 - [ ] modal
+- [ ] carousal
