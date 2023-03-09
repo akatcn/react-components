@@ -9,9 +9,9 @@ function IntersectionObserverPage() {
     const callback = (entries: IntersectionObserverEntry[]) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {  // 감시되는 엘리먼트가 교차될 때의 동작 정의
-          console.log("보여집니다!!");
+          // console.log("보여집니다!!");
         } else {  // 감시되는 엘리먼트가 교차되지 않을 때의 동작 정의
-          console.log("안보여집니다...");
+          // console.log("안보여집니다...");
         }
       })
     }
@@ -49,7 +49,7 @@ function IntersectionObserverPage() {
       <p>티코 안녕!</p>
       <p>티코 안녕!</p>
       <p>티코 안녕!</p>
-      <div ref={el => addToTargets(el as HTMLElement)}>티코 안녕!2</div>
+      <div ref={(el: HTMLDivElement) => addToTargets(el)}>티코 안녕!2</div>
       <p>티코 안녕!</p>
       <p>티코 안녕!</p>
       <p>티코 안녕!</p>

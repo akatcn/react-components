@@ -4,6 +4,7 @@ import './index.css'
 import InputsPage from './pages/InputsPage'
 import DropdownsPage from './pages/DropdownsPage'
 import IntersectionObserverPage from './pages/IntersectionObserverPage'
+import InfiniteScrollPage from './pages/InfiniteScrollPage'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <InputsPage />
       <DropdownsPage />
       <IntersectionObserverPage />
+      <InfiniteScrollPage />
     </div>
   )
 }
