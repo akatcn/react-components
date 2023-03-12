@@ -5,15 +5,17 @@ import InputsPage from './pages/InputsPage'
 import DropdownsPage from './pages/DropdownsPage'
 import IntersectionObserverPage from './pages/IntersectionObserverPage'
 import InfiniteScrollPage from './pages/InfiniteScrollPage'
+import ModalsPage from './pages/ModalsPage'
 
 function App() {
   return (
     <div className="m-4">
-      <ButtonsPage />
+      <ModalsPage />
+      {/* <ButtonsPage />
       <InputsPage />
       <DropdownsPage />
       <IntersectionObserverPage />
-      <InfiniteScrollPage />
+      <InfiniteScrollPage /> */}
     </div>
   )
 }
